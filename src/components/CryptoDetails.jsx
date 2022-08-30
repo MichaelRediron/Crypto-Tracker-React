@@ -41,7 +41,7 @@ const CryptoDetails = () => {
 
   const stats = [
     {
-      title: 'Price to USD',
+      title: 'Price (USD)',
       value: `$${
         cryptoDetails?.price && Number(cryptoDetails?.price).toFixed(4)
       }`,
